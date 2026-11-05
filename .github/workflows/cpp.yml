@@ -5,7 +5,7 @@ permissions:
 jobs:
   test:
     runs-on: ubuntu-latest
-  steps:
-    - uses: actions/checkout@v4
-    - name: Compile and run acceptance tests
-      run: bash test.sh
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compile and run acceptance tests
+        run: bash test.sh
